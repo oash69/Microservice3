@@ -1,0 +1,48 @@
+openapi: 3.0.1
+info:
+  title: Bali Member API
+  description: This is API used to manage Member microservices
+  version: 1.0.0
+  x-audience: external-public
+  x-api-id: 78e624f8-f73e-4bbe-a918-bda261fd13ec
+servers:
+  - url: http://localhost:8080/bali/services/v1
+    description: dev
+paths:
+  /memberFacade:
+    get:
+      summary: Retrieve all members
+      operationId: getMember
+      parameters:
+        - name: firstName
+          in: query
+          required: true
+          schema:
+            maxLength: 15
+            type: string
+        - name: lastName
+          in: query
+          required: true
+          schema:
+            maxLength: 15
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BaliResult'
+components:
+  schemas:
+    MessageResponse:
+      type: object
+      properties:
+        message:
+          maxLength: 20
+          type: string
+    BaliResult:
+      type: object
+      properties:
+        MessageResponse:
+          $ref: '#/components/schemas/MessageResponse'
