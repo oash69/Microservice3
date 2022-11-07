@@ -17,7 +17,7 @@ public class Db2MultiTenantResolver implements CurrentTenantIdentifierResolver {
   private static final Logger LOG = LoggerFactory.getLogger(Db2MultiTenantResolver.class);
 
   public static final String DEFAULT_SCHEMA_PREFIX = "ABVVPFX";
-  public static final String DEFAULT_TENANT_IDENTIFIER = "R";
+  public static final String DEFAULT_TENANT_IDENTIFIER = "0";
 
   static {
     Map<String, String> tenantMap = new HashMap<>();
