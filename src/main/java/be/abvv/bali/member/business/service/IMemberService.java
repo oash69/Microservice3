@@ -9,4 +9,6 @@ public interface IMemberService {
     String SCHEMA_NAME_KEY = "spring.db2.datasource.default_schema_name";
     public MemberEntity getMember(String firstName, String lastName);
     public void updatephonenumber(String id, String phone);
+
+    public void updateMembre(String id, MemberEntity member);
 }

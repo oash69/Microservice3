@@ -1,0 +1,1 @@
+2022-11-11 11:12:57,909 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

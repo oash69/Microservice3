@@ -56,6 +56,14 @@ public class MemberService implements IMemberService{
         return null;
     }
 
+    public MemberEntity getMember(String id) {
+        MemberEntity member = memberDao.getMember(id);
+        if(member !=null) {
+            return member;
+        }
+        return null;
+    }
+
     public void updatephonenumber(String id, String phone) {
 
 /*        Db2MultiTenantResolver.setTenant(
@@ -64,6 +72,14 @@ public class MemberService implements IMemberService{
         MemberEntity member = new MemberEntity();
         member.setId(id);
         member.setTelephone(phone);
+        memberDao.setMemberPhoneNumber(member);
+    }
+
+    public void updateMembre(String id, MemberEntity member) {
+
+/*        Db2MultiTenantResolver.setTenant(
+                this.schemaPrefix
+                        + "R");*/
         memberDao.setMemberPhoneNumber(member);
     }
 

@@ -6,13 +6,13 @@ import be.abvv.bali.member.persistence.mapper.MemberMapper;
 import be.abvv.bali.member.persistence.rpg.Db2MultiTenantResolver;
 import be.abvv.bali.member.persistence.rpg.domain.BaliFZZEntity;
 import be.abvv.bali.member.persistence.rpg.domain.MemberEntity;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class MemberRepository implements IMemberRepository {
@@ -55,6 +55,16 @@ public class MemberRepository implements IMemberRepository {
         List<BaliFZZEntity> baliFZZList = baliFZZDAO.findGsmByFirstNameAndLastName(firstname,lastname);
         if(!baliFZZList.isEmpty()) {
             BaliFZZEntity baliFzz = baliFZZList.get(0);
+            member= memberMapper.toMember(baliFzz);
+        }
+        return member;
+    }
+    @Override
+    public MemberEntity getMember(String id) {
+        MemberEntity member= new MemberEntity();
+        Optional<BaliFZZEntity> baliFZZList = baliFZZDAO.findById(id);
+        if(!baliFZZList.isEmpty()) {
+            BaliFZZEntity baliFzz = baliFZZList.get();
             member= memberMapper.toMember(baliFzz);
         }
         return member;

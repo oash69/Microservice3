@@ -1,28 +1,34 @@
 package be.abvv.bali.member;
 
 import be.abvv.bali.member.business.service.MemberService;
+import be.abvv.bali.member.persistence.rpg.Db2MultiTenantResolver;
+import be.abvv.bali.member.persistence.rpg.domain.MemberEntity;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
 
 @RequestMapping("/v1")
 @RestController
+@Slf4j
 public class Facade implements IFacade{
-    @Bean
-    public RestTemplate restTemplateFacade() {
+
+/*    @Bean
+    public RestTemplate restTemplate() {
         return new RestTemplate();
-    }
+    }*/
 
     @Autowired
     MemberService memberService;
 
-    @GetMapping("/memberFacade")
+/*    @GetMapping("/memberFacade")
     public String getMember(@RequestParam(value = "firstName") String firstName,
                             @RequestParam(value = "lastName") String lastName,
                             HttpServletRequest request) {
@@ -35,11 +41,30 @@ public class Facade implements IFacade{
 
         return html;
 
+    }*/
+
+    @GetMapping("/memberFacade")
+    public MemberEntity getMember(@RequestParam(value = "firstName") String firstName,
+                                  @RequestParam(value = "lastName") String lastName,
+                                  HttpServletRequest request) {
+
+        log.debug("getMember ");
+        System.out.println("getMember");
+        return memberService.getMember(firstName,lastName);
+
     }
     @GetMapping("/memberPhoneChange")
-    public String setMember(@RequestParam(value = "tel") String tel, @RequestParam(value = "id") String id){
+    public MemberEntity setMember(@RequestParam(value = "tel") String tel, @RequestParam(value = "id") String id){
+        log.debug(" memberPhoneChange ");
         memberService.updatephonenumber(id, tel);
-        return "Change phone success! " + tel + " for userId " + id;
+        return memberService.getMember(id);
+    }
+
+    @PutMapping("/putChange")
+    public MemberEntity updateMember(@RequestParam(value = "tel") String tel, @RequestParam(value = "id") String id){
+        log.debug(" memberPhoneChange ");
+        memberService.updatephonenumber(id, tel);
+        return memberService.getMember(id);
     }
 
 }
