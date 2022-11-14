@@ -68,10 +68,9 @@
 		</dependency>
 		<!-- annotations for DTo's -->
 		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-annotations</artifactId>
-			<version>1.5.20</version>
-			<scope>compile</scope>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openapitools</groupId>

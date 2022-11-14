@@ -875,3 +875,314 @@ java.sql.SQLNonTransientConnectionException: The application requester cannot es
 2022-11-14 12:45:43,867 WARN org.hibernate.internal.SessionImpl "trace": "53bad22dc013f425" "span": "53bad22dc013f425" [http-nio-8080-exec-9] HHH000487: The query: [update BaliFZZEntity u set u.gsmNumber = :phone where u.internalLidNumber = :id] attempts to update an immutable entity: [ABVVTFXR.FZZ]
 2022-11-14 12:45:44,971 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "53bad22dc013f425" "span": "53bad22dc013f425" [http-nio-8080-exec-9] SQL Warning Code: 1301, SQLState: HY001
 2022-11-14 12:45:44,971 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "53bad22dc013f425" "span": "53bad22dc013f425" [http-nio-8080-exec-9] [PWS0082] 1 bibliothèque(s) non ajoutée(s) à la liste des bibliothèques.
+2022-11-14 13:02:42,528 INFO be.abvv.bali.member.filter.CommonFacadeFilter "trace": "9e8e12e3b3dd65c8" "span": "9e8e12e3b3dd65c8" [http-nio-8080-exec-1] Hello from: 0:0:0:0:0:0:0:1
+2022-11-14 13:02:42,792 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "9e8e12e3b3dd65c8" "span": "9e8e12e3b3dd65c8" [http-nio-8080-exec-1] SQL Warning Code: 1301, SQLState: HY001
+2022-11-14 13:02:42,793 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "9e8e12e3b3dd65c8" "span": "9e8e12e3b3dd65c8" [http-nio-8080-exec-1] [PWS0082] 1 bibliothèque(s) non ajoutée(s) à la liste des bibliothèques.
+2022-11-14 13:36:55,069 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:40:11,226 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 18576 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:40:11,228 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:40:11,290 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] The Class-Path manifest attribute in D:\Dev\tools\apache-maven-3.6.3\.m2\repository\com\ibm\db2\jcc\11.5.7.0\jcc-11.5.7.0.jar referenced one or more files that do not exist: file:/D:/Dev/tools/apache-maven-3.6.3/.m2/repository/com/ibm/db2/jcc/11.5.7.0/pdq.jar
+2022-11-14 13:40:11,291 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-14 13:40:11,291 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-14 13:40:12,071 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:40:12,130 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:40:12,844 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=bd644184-70fe-3485-921a-4cc7fcf46bbb
+2022-11-14 13:40:14,071 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:40:14,083 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:40:14,084 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:40:14,085 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:40:14,229 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:40:14,230 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 2938 ms
+2022-11-14 13:40:18,664 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:40:18,722 INFO org.hibernate.Version "trace": "" "span": "" [restartedMain] HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-11-14 13:40:18,944 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager "trace": "" "span": "" [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-14 13:40:19,395 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 13:41:29,934 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator "trace": "" "span": "" [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-14 13:41:29,942 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:41:30,581 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:30,582 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:30,583 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:30,583 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:31,265 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration "trace": "" "span": "" [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-14 13:41:31,725 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:31,725 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:41:31,736 WARN org.springframework.security.core.userdetails.User "trace": "" "span": "" [restartedMain] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2022-11-14 13:41:32,343 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer "trace": "" "span": "" [restartedMain] LiveReload server is running on port 35729
+2022-11-14 13:41:33,356 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:41:33,384 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/bali/services'
+2022-11-14 13:41:33,630 WARN org.springframework.context.support.AbstractApplicationContext "trace": "" "span": "" [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+2022-11-14 13:41:33,645 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:41:33,668 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:41:33,669 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Stopping service [Tomcat]
+2022-11-14 13:41:33,675 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:41:33,679 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:41:33,696 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener "trace": "" "span": "" [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-14 13:41:33,740 ERROR org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at be.abvv.bali.member.MemberApplication.main(MemberApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.getPatterns()" because "this.condition" is null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:473)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1307)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2022-11-14 13:44:59,581 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 20328 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:44:59,583 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:44:59,641 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] The Class-Path manifest attribute in D:\Dev\tools\apache-maven-3.6.3\.m2\repository\com\ibm\db2\jcc\11.5.7.0\jcc-11.5.7.0.jar referenced one or more files that do not exist: file:/D:/Dev/tools/apache-maven-3.6.3/.m2/repository/com/ibm/db2/jcc/11.5.7.0/pdq.jar
+2022-11-14 13:44:59,642 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-14 13:44:59,643 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-14 13:45:00,431 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:45:00,495 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:45:01,151 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=bd644184-70fe-3485-921a-4cc7fcf46bbb
+2022-11-14 13:45:02,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:45:02,439 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:45:02,439 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:45:02,440 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:45:02,590 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:45:02,591 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 2948 ms
+2022-11-14 13:45:06,823 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:45:06,888 INFO org.hibernate.Version "trace": "" "span": "" [restartedMain] HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-11-14 13:45:07,117 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager "trace": "" "span": "" [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-14 13:45:07,553 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 13:46:14,570 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator "trace": "" "span": "" [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-14 13:46:14,583 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:46:15,166 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:15,166 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:15,166 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:15,166 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:15,855 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration "trace": "" "span": "" [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-14 13:46:16,344 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:16,345 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:46:16,354 WARN org.springframework.security.core.userdetails.User "trace": "" "span": "" [restartedMain] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2022-11-14 13:46:17,014 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer "trace": "" "span": "" [restartedMain] LiveReload server is running on port 35729
+2022-11-14 13:46:17,944 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:46:17,968 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/bali/services'
+2022-11-14 13:46:18,465 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Started MemberApplication in 79.683 seconds (JVM running for 80.671)
+2022-11-14 13:47:30,080 INFO org.apache.juli.logging.DirectJDKLog "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-14 13:47:30,080 INFO org.springframework.web.servlet.FrameworkServlet "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-14 13:47:30,083 INFO org.springframework.web.servlet.FrameworkServlet "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] Completed initialization in 2 ms
+2022-11-14 13:47:30,091 INFO be.abvv.bali.member.filter.CommonFacadeFilter "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] Hello from: 0:0:0:0:0:0:0:1
+2022-11-14 13:47:30,535 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] SQL Warning Code: 1301, SQLState: HY001
+2022-11-14 13:47:30,536 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler "trace": "ca07f059b07b513d" "span": "ca07f059b07b513d" [http-nio-8080-exec-2] [PWS0082] 1 bibliothèque(s) non ajoutée(s) à la liste des bibliothèques.
+2022-11-14 13:47:40,950 INFO be.abvv.bali.member.filter.CommonFacadeFilter "trace": "7186c5a3fc0afe21" "span": "7186c5a3fc0afe21" [http-nio-8080-exec-3] Hello from: 0:0:0:0:0:0:0:1
+2022-11-14 13:47:46,510 INFO be.abvv.bali.member.filter.CommonFacadeFilter "trace": "210d08bd26924da2" "span": "210d08bd26924da2" [http-nio-8080-exec-4] Hello from: 0:0:0:0:0:0:0:1
+2022-11-14 13:47:48,926 INFO be.abvv.bali.member.filter.CommonFacadeFilter "trace": "5c1d4dc19852fc08" "span": "5c1d4dc19852fc08" [http-nio-8080-exec-5] Hello from: 0:0:0:0:0:0:0:1
+2022-11-14 13:50:05,469 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:50:11,852 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 19188 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:50:11,854 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:50:11,905 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] The Class-Path manifest attribute in D:\Dev\tools\apache-maven-3.6.3\.m2\repository\com\ibm\db2\jcc\11.5.7.0\jcc-11.5.7.0.jar referenced one or more files that do not exist: file:/D:/Dev/tools/apache-maven-3.6.3/.m2/repository/com/ibm/db2/jcc/11.5.7.0/pdq.jar
+2022-11-14 13:50:11,906 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-14 13:50:11,907 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-14 13:50:12,740 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:50:12,801 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:50:13,261 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=bd644184-70fe-3485-921a-4cc7fcf46bbb
+2022-11-14 13:50:13,966 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:50:13,973 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:50:13,974 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:50:13,974 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:50:14,054 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:50:14,055 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 2147 ms
+2022-11-14 13:50:17,861 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:50:17,890 INFO org.hibernate.Version "trace": "" "span": "" [restartedMain] HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-11-14 13:50:17,988 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager "trace": "" "span": "" [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-14 13:50:18,353 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 13:51:19,851 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator "trace": "" "span": "" [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-14 13:51:19,856 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:51:20,163 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,163 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,165 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,165 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,581 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration "trace": "" "span": "" [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-14 13:51:20,782 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,782 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 13:51:20,790 WARN org.springframework.security.core.userdetails.User "trace": "" "span": "" [restartedMain] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2022-11-14 13:51:21,132 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer "trace": "" "span": "" [restartedMain] LiveReload server is running on port 35729
+2022-11-14 13:51:21,660 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:51:21,675 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/bali/services'
+2022-11-14 13:51:21,987 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Started MemberApplication in 70.824 seconds (JVM running for 71.713)
+2022-11-14 13:58:07,951 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener "trace": "" "span": "" [File Watcher] Restarting due to 45 class path changes (0 additions, 45 deletions, 0 modifications)
+2022-11-14 13:58:07,992 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:58:07,992 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [Thread-5] Stopping service [Tomcat]
+2022-11-14 13:58:07,998 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:58:08,000 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:58:08,011 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 13:58:17,083 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 19188 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:58:17,084 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:58:17,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:58:17,570 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-11-14 13:58:17,674 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=c3419de6-3862-321b-a4ae-ce370b13b540
+2022-11-14 13:58:18,000 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:58:18,003 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:58:18,004 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:58:18,045 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:58:18,045 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 958 ms
+2022-11-14 13:58:18,344 WARN org.springframework.context.support.AbstractApplicationContext "trace": "" "span": "" [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-11-14 13:58:18,345 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Stopping service [Tomcat]
+2022-11-14 13:58:18,359 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener "trace": "" "span": "" [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-14 13:58:18,364 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter "trace": "" "span": "" [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-11-14 13:58:21,564 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 19188 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:58:21,565 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:58:21,945 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:58:21,962 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:58:22,089 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=57ba9b7c-bbd0-3352-8d44-3ccccc9e32f5
+2022-11-14 13:58:22,258 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:58:22,258 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:58:22,258 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:58:22,282 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:58:22,283 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 715 ms
+2022-11-14 13:58:26,252 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:58:26,498 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 13:59:04,946 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 13796 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:59:04,948 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:59:05,001 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] The Class-Path manifest attribute in D:\Dev\tools\apache-maven-3.6.3\.m2\repository\com\ibm\db2\jcc\11.5.7.0\jcc-11.5.7.0.jar referenced one or more files that do not exist: file:/D:/Dev/tools/apache-maven-3.6.3/.m2/repository/com/ibm/db2/jcc/11.5.7.0/pdq.jar
+2022-11-14 13:59:05,002 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-14 13:59:05,003 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-14 13:59:05,859 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:59:05,915 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:59:06,374 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=57ba9b7c-bbd0-3352-8d44-3ccccc9e32f5
+2022-11-14 13:59:07,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:59:07,280 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:59:07,281 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:59:07,282 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:59:07,422 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:59:07,423 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 2420 ms
+2022-11-14 13:59:09,575 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Starting MemberApplication using Java 17.0.4.1 on T00LNRECC with PID 8976 (D:\Dev\Repository\PocArchitectureNico\member\target\classes started by T00NRECC in D:\Dev\Repository\PocArchitectureNico\member)
+2022-11-14 13:59:09,578 INFO org.springframework.boot.SpringApplication "trace": "" "span": "" [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-14 13:59:09,644 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] The Class-Path manifest attribute in D:\Dev\tools\apache-maven-3.6.3\.m2\repository\com\ibm\db2\jcc\11.5.7.0\jcc-11.5.7.0.jar referenced one or more files that do not exist: file:/D:/Dev/tools/apache-maven-3.6.3/.m2/repository/com/ibm/db2/jcc/11.5.7.0/pdq.jar
+2022-11-14 13:59:09,644 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-14 13:59:09,645 INFO org.springframework.boot.logging.DeferredLog "trace": "" "span": "" [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-14 13:59:10,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-14 13:59:10,590 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate "trace": "" "span": "" [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-11-14 13:59:11,059 INFO org.springframework.cloud.context.scope.GenericScope "trace": "" "span": "" [restartedMain] BeanFactory id=57ba9b7c-bbd0-3352-8d44-3ccccc9e32f5
+2022-11-14 13:59:11,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-11-14 13:59:11,927 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-14 13:59:11,928 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting service [Tomcat]
+2022-11-14 13:59:11,928 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-14 13:59:12,035 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-14 13:59:12,035 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext "trace": "" "span": "" [restartedMain] Root WebApplicationContext: initialization completed in 2389 ms
+2022-11-14 13:59:12,083 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:59:12,133 INFO org.hibernate.Version "trace": "" "span": "" [restartedMain] HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-11-14 13:59:12,338 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager "trace": "" "span": "" [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-14 13:59:12,709 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 13:59:16,594 INFO org.hibernate.jpa.internal.util.LogHelper "trace": "" "span": "" [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-14 13:59:16,661 INFO org.hibernate.Version "trace": "" "span": "" [restartedMain] HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-11-14 13:59:16,984 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager "trace": "" "span": "" [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-14 13:59:17,499 INFO org.hibernate.dialect.Dialect "trace": "" "span": "" [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.DB2400Dialect
+2022-11-14 14:00:23,070 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator "trace": "" "span": "" [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-14 14:00:23,079 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 14:00:23,513 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:23,514 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:23,514 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:23,514 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:24,101 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration "trace": "" "span": "" [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-14 14:00:24,356 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:24,356 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:24,368 WARN org.springframework.security.core.userdetails.User "trace": "" "span": "" [restartedMain] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2022-11-14 14:00:24,937 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer "trace": "" "span": "" [restartedMain] LiveReload server is running on port 35729
+2022-11-14 14:00:25,617 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-14 14:00:25,634 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer "trace": "" "span": "" [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/bali/services'
+2022-11-14 14:00:25,987 INFO org.springframework.boot.StartupInfoLogger "trace": "" "span": "" [restartedMain] Started MemberApplication in 81.636 seconds (JVM running for 82.482)
+2022-11-14 14:00:28,774 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator "trace": "" "span": "" [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-14 14:00:28,781 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 14:00:29,215 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:29,216 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:29,216 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:29,216 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:29,740 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration "trace": "" "span": "" [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-14 14:00:30,008 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:30,009 WARN org.hibernate.dialect.function.TemplateRenderer "trace": "" "span": "" [restartedMain] HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2022-11-14 14:00:30,016 WARN org.springframework.security.core.userdetails.User "trace": "" "span": "" [restartedMain] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2022-11-14 14:00:30,470 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer "trace": "" "span": "" [restartedMain] Unable to start LiveReload server
+2022-11-14 14:00:31,137 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-14 14:00:31,141 WARN org.springframework.context.support.AbstractApplicationContext "trace": "" "span": "" [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-11-14 14:00:31,148 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-14 14:00:31,153 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-14 14:00:31,154 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Stopping service [Tomcat]
+2022-11-14 14:00:31,158 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-14 14:00:31,159 INFO org.apache.juli.logging.DirectJDKLog "trace": "" "span": "" [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-14 14:00:31,172 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener "trace": "" "span": "" [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-14 14:00:31,200 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter "trace": "" "span": "" [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-14 14:01:08,826 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean "trace": "" "span": "" [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

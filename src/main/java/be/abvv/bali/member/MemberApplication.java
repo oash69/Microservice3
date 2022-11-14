@@ -10,8 +10,10 @@ import org.springframework.http.converter.FormHttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.filter.ForwardedHeaderFilter;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@EnableSwagger2
 public class MemberApplication {
 
 	public static void main(String[] args) {
